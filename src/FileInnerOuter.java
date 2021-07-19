@@ -48,5 +48,6 @@ public class FileInnerOuter {
             fos.write(arr[i].toString().getBytes());
             fos.write("\n".getBytes());
         }
+        fos.close();
     }
 }
